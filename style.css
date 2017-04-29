@@ -1,0 +1,23 @@
+html {
+  lang: "en";
+}
+body {
+  padding-top: 80px;
+}
+#main {
+  background-color: #eee;
+}
+.navbar-bg {
+  background-color: darkslategray;
+}
+.example {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+}
+.subdued {
+  color: #bbb;
+}
+.inlicon {
+  height:  1rem;
+}
