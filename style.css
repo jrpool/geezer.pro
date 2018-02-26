@@ -1,23 +1,37 @@
-html {
-  lang: "en";
+.bg-danger,
+.bg-success {
+  color: white;
 }
 body {
   padding-top: 80px;
 }
-#main {
-  background-color: #eee;
+.donot-text {
+  color: 111;
 }
-.navbar-bg {
-  background-color: darkslategray;
+.donot-pic-min {
+  min-width: 90%;
+  object-fit: contain;
+}
+.donot-pic-max {
+  max-height: 8rem;
+  object-fit: contain;
 }
 .example {
+  padding-top: 0.2rem;
   border-style: solid;
   border-width: 1px;
   border-color: gray;
 }
-.subdued {
-  color: #bbb;
-}
 .inlicon {
   height:  1rem;
+}
+.logo {
+  width: 8rem;
+}
+.navbar-bg {
+  background-color: darkslategray;
+}
+.why-text {
+  font-size: 110%;
+  background-color: #eee;
 }
