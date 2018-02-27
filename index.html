@@ -32,6 +32,7 @@
         <a href="#why" class="mr-2 btn btn-primary">Why</a>
         <a href="#donots" class="mr-2 btn btn-primary">Don’ts</a>
         <a href="#about" class="mr-2 btn btn-primary">About</a>
+        <a href="#free" class="mr-2 btn btn-primary">Free</a>
         <a href="#contact" class="btn btn-primary">Contact</a>
       </div>
     </nav
@@ -76,11 +77,15 @@
             Do you want to reach <strong>everybody</strong>? Then, in this aging world, don’t neglect geezers! If a website, document, or application requires sharp eyesight, acute hearing, fast reactions, accurate memory, and digital savoir-faire, it’s <em>not</em> geezer-friendly. It may also exclude users with disabilities and even violate government accessibility requirements.
           </p>
           <p class="col-md-6 col-sm-12">
-            We can make your digital presence geezer-friendly, whether you need something new or improved. We comply with the latest accessibility standards. We also detect and correct content and formats that could confuse, mislead, or alienate geezers (and non-geezers!). And we document our work so your geezers can make further changes without us.
+            We can help, whether you need something new or improved. We comply with the latest accessibility standards. We detect and correct content and formats that could confuse, mislead, or alienate geezers (and non-geezers!). And we document our work so your geezers can make further changes without us.
           </p>
         </div>
       </section>
-      <section id="donots" class="container-fluid" title="Counter-examples">
+      <section
+        id="donots"
+        class="container-fluid"
+        title="Counter-examples"
+      >
         <div class="row">
           <div class="col-lg-4 col-md-3 col-sm-2"></div>
           <div class="col-lg-4 col-md-6 col-sm-8">
@@ -88,8 +93,8 @@
           </div>
           <div class="col-lg-4 col-md-3 col-sm-2"></div>
         </div>
-        <div class="h4 mt-2 mb-3 pl-2">Some things we <strong>don’t</strong> tolerate:</div>
-        <div class="row">
+        <div class="h4 mt-2 mb-3 pl-2">Some things we <strong>won’t</strong> let you do:</div>
+        <div class="row mx-2">
           <div class="example col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <figure class="figure">
               <div class="row">
@@ -132,16 +137,14 @@
           </div>
           <div class="example col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <figure class="figure">
-              <div class="row">
-                <img
-                  class="col-7 figure-img img-fluid d-block donot-pic-max mx-auto"
-                  alt="Question with no answers"
-                  src="images/examples/neg/example-exit.png"
-                >
-                <figcaption class="col-5 donot-text">
-                  Question followed by options, <strong>none</strong> of which answers the question.
-                </figcaption>
-              </div>
+              <img
+                class="figure-img img-fluid d-block donot-pic-min mx-auto"
+                alt="Question with no answers"
+                src="images/examples/neg/example-exit.png"
+              >
+              <figcaption class="donot-text">
+                Question followed by options, <strong>none</strong> of which answers the question.
+              </figcaption>
             </figure>
           </div>
           <div class="example col-xl-3 col-lg-4 col-md-6 col-sm-12">
@@ -173,7 +176,19 @@
           <div class="example col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <figure class="figure">
               <img
-                class="figure-img img-fluid d-block mx-auto"
+                class="figure-img img-fluid d-block donot-pic-min mx-auto"
+                alt="Ambiguous endorsement button"
+                src="images/examples/neg/example-endorse.png"
+              >
+              <figcaption class="donot-text">
+                A skill you can endorse a person for—but should you click to endorse, or have already and should click to <strong>un</strong>endorse?
+              </figcaption>
+            </figure>
+          </div>
+          <div class="example col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <figure class="figure">
+              <img
+                class="figure-img img-fluid d-block donot-pic-min mx-auto"
                 alt="Nearly illegible font"
                 src="images/examples/neg/example-font.png"
               >
@@ -208,7 +223,7 @@
           </div>
         </div>
       </section>
-      <section id="about" class="container-fluid">
+      <section id="about" class="container-fluid" title="About">
         <div class="row">
           <div class="col-lg-4 col-md-3 col-sm-2"></div>
           <div class="col-lg-4 col-md-6 col-sm-8">
@@ -216,42 +231,61 @@
           </div>
           <div class="col-lg-4 col-md-3 col-sm-2"></div>
         </div>
-        <p class="h4 mb-3">
+        <p class="h4 mb-3 pl-2">
           <strong>geezer.pro</strong><span class="text-muted">™</span> is a team of friendly geezers making things geezer-friendly. When needed, we get help from proto-geezers.
         </p>
-        <div class="row">
+        <div class="row mx-2">
           <div class="col-sm-2 col-md-1">
             <figure class="figure">
               <img
+                aria-label="Photograph of Jonathan Pool"
+                aria-describedby="staff-pool"
                 class="figure-img img-fluid d-block donot-pic-max mx-auto"
                 alt="Jonathan Pool"
                 src="images/misc/pool.jpg"
               >
-              <figcaption class="figure-caption">Jonathan Pool</figcaption>
             </figure>
           </div>
           <div class="col-sm-10 col-md-5">
-            <p>
+            <p id="staff-pool">
               <strong><a href="https://jpdev.pro/info/">Jonathan Pool</a></strong>, Ph.D., Web Accessibility Researcher, has experience in social, linguistic, and computer sciences and engineering; the design of databases and user interfaces; internationalization; web and building accessibility; and small-business and nonprofit entrepreurship. He has recently undergone a skill upgrade at <a href="https://learnersguild.org">Learners Guild</a>.
             </p>
           </div>
           <div class="col-sm-2 col-md-1">
             <figure class="figure">
               <img
+                aria-label="Photograph of Susan Colowick"
+                aria-describedby="staff-colowick"
                 class="figure-img img-fluid d-block donot-pic-max mx-auto"
                 alt="Susan Colowick"
                 src="images/misc/colowick.jpg"
               >
-              <figcaption class="figure-caption">
-                Susan Colowick
-              </figcaption>
             </figure>
           </div>
           <div class="col-sm-10 col-md-5">
-            <p>
+            <p id="staff-colowick">
               <strong>Susan Colowick</strong>, M.Libr., Content Quality Specialist, has professional experience in reference librarianship, website authentication, technical editing, journalism, proofreading, government records curation, graphic arts, and legal research, as well as training in web development.
             </p>
           </div>
+        </div>
+      </section>
+      <section id="free" class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-3 col-sm-2"></div>
+          <div class="col-lg-4 col-md-6 col-sm-8">
+            <h1 class="text-center bg-success bt-3 pb-2">Free</h1>
+          </div>
+          <div class="col-lg-4 col-md-3 col-sm-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-2 col-sm-1"></div>
+          <div class="col-lg-6 col-md-8 col-sm-10">
+            <p class="h4">Free offer!</p>
+            <p>
+              Curious about how geezer-friendly a particular web page is? Shoot us an email with its address. We’ll look it over, run some tests, and write back with comments.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-2 col-sm-1"></div>
         </div>
       </section>
       <section id="contact" class="container-fluid">
@@ -267,7 +301,7 @@
           <div class="col-lg-6 col-md-8 col-sm-10">
             <p class="text-center h4">geezer.pro™</p>
             <p class="text-center h5">
-              email: info@geezer.pro<br>
+              email: <a href="mailto:info@geezer.pro">info@geezer.pro</a><br>
               Telephone: 510-225-1717<br>
               Facsimile: 510-225-1170
             </p>

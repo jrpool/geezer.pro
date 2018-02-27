@@ -10,10 +10,11 @@ body {
 }
 .donot-pic-min {
   min-width: 90%;
-  object-fit: contain;
 }
 .donot-pic-max {
   max-height: 8rem;
+}
+#donots img {
   object-fit: contain;
 }
 .example {
@@ -27,6 +28,9 @@ body {
 }
 .navbar-bg {
   background-color: darkslategray;
+}
+section {
+  margin-top: 2rem;
 }
 .why-text {
   font-size: 110%;
