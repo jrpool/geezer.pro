@@ -18,6 +18,7 @@
       crossorigin="anonymous"
     >
     <title>geezer.pro</title>
+    <script type="text/javascript" src="script.js"></script>
   </head>
 
   <body>
@@ -29,15 +30,20 @@
         a 100% geezer-owned enterprise
       </div>
       <div>
-        <a href="#why" class="mr-2 btn btn-primary">Why</a>
-        <a href="#donots" class="mr-2 btn btn-primary">Don’ts</a>
-        <a href="#about" class="mr-2 btn btn-primary">About</a>
-        <a href="#free" class="mr-2 btn btn-primary">Free</a>
-        <a href="#contact" class="btn btn-primary">Contact</a>
+        <button dest="intro" class="mr-2 btn btn-primary disabled">Top</button>
+        <button dest="why" class="mr-2 btn btn-primary">Why</button>
+        <button dest="donots" class="mr-2 btn btn-primary">Don’ts</button>
+        <button dest="about" class="mr-2 btn btn-primary">About</button>
+        <button dest="free" class="mr-2 btn btn-primary">Free</button>
+        <button dest="contact" class="mr-2 btn btn-primary">Contact</button>
       </div>
     </nav
     <main>
-      <section class="container-fluid">
+      <section
+        id="intro"
+        class="container-fluid"
+        title="Introduction"
+      >
         <div class="row">
           <div class="col">
             <figure class="figure">

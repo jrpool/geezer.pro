@@ -24,6 +24,9 @@ body {
   border-width: 1px;
   border-color: gray;
 }
+.hidden {
+  display: none;
+}
 .logo {
   width: 8rem;
 }
