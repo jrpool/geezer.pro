@@ -4,7 +4,7 @@
   color: white;
 }
 body {
-  padding-top: 80px;
+  padding-top: 30px;
 }
 .donot-text {
   color: 111;
@@ -27,14 +27,29 @@ body {
 .hidden {
   display: none;
 }
+#intro {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  background-image: url('images/bg/photo-0-bg.jpg');
+  background-size: cover;
+}
 .logo {
-  width: 8rem;
+  width: 3rem;
+}
+#logo {
+  margin-bottom: 0;
+}
+nav {
+  align-items: center;
+}
+#navlogo {
+  margin-bottom: 0;
 }
 .navbar-bg {
   background-color: darkslategray;
 }
 section {
-  margin-top: 2rem;
+  padding-top: 6rem;
 }
 .why-text {
   font-size: 110%;
