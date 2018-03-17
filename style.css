@@ -1,10 +1,43 @@
+@media {
+  html {
+    font-size: 12px;
+  }
+  section {
+    padding-top: 6rem;
+  }
+}
+@media (min-width: 600px) {
+  html {
+    font-size: 2vw;
+  }
+  section {
+    padding-top: 12vw;
+  }
+}
+@media (min-width: 850px) {
+  html {
+    font-size: 18px;
+  }
+  section {
+    padding-top: 9rem;
+  }
+}
+@media (min-width: 1200px) {
+  section {
+    padding-top: 5rem;
+  }
+}
 .bg-danger,
 .bg-success {
   padding: 0 1rem 1rem 1rem;
   color: white;
 }
 body {
-  padding-top: 30px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#contact {
+  background-color: #f6f6f6;
 }
 .donot-text {
   color: 111;
@@ -15,6 +48,9 @@ body {
 .donot-pic-max {
   max-height: 8rem;
 }
+#donots {
+  background-color: #fff8f8;
+}
 #donots img {
   object-fit: contain;
 }
@@ -23,6 +59,14 @@ body {
   border-style: solid;
   border-width: 1px;
   border-color: gray;
+}
+figure {
+  align-items: center;
+}
+#free > div {
+  border: solid gray 1rem;
+  padding-top: 0.5rem;
+  background-color: #f0f6ffzz;
 }
 .hidden {
   display: none;
@@ -48,10 +92,6 @@ nav {
 .navbar-bg {
   background-color: darkslategray;
 }
-section {
-  padding-top: 6rem;
-}
-.why-text {
+#why p {
   font-size: 110%;
-  background-color: #eee;
 }
