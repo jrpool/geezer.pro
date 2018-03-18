@@ -5,17 +5,16 @@ const destNames = ['intro', 'why', 'donots', 'about', 'free', 'contact'];
 const handleNav = event => {
   const currentDestName = event.currentTarget.getAttribute('dest');
   destNames.forEach(destName => {
+    const thisButton = document.querySelector(
+      `nav > div > button[dest=${destName}]`
+    );
     if (destName === currentDestName) {
-      document
-      .querySelector(`nav > div > button[dest=${destName}]`)
-      .classList
-      .add('disabled');
+      thisButton.classList.add('disabled');
+      thisButton.tabIndex = -1;
     }
     else {
-      document
-      .querySelector(`nav > div > button[dest="${destName}"]`)
-      .classList
-      .remove('disabled');
+      thisButton.classList.remove('disabled');
+      thisButton.tabIndex = 0;
     }
   });
   const currentDestIndex = destNames.indexOf(currentDestName);
