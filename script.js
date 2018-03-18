@@ -53,4 +53,5 @@ window.onload = () => {
     button.onclick = handleNav;
   });
   window.onresize = handleResize;
+  handleResize();
 };

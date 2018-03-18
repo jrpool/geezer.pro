@@ -45,6 +45,19 @@ body {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.btn-primary {
+  max-height: 2.5rem;
+  min-height: 2.5rem;
+  max-width: 5.5rem;
+  min-width: 5.5rem;
+}
+.btn-primary:focus,
+.btn-primary:hover {
+  border-width: 0.2rem;
+  border-color: yellow!important;
+  font-weight: bold;
+  color: yellow!important;
+}
 #contact {
   background-color: #f6f6f6;
 }

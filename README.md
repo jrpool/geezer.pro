@@ -36,9 +36,10 @@ Efforts have been made, and are continuing, to make the user interface comply wi
 
 - Natural navigation order
 - Explicit main and sectional region structure
-- Mouse-free operability
 - Semantic headings
+- Mouse-free operability
 - Descriptive titling
+- Visible focus
 - Contrastive colors
 - Programmatically determinable control purposes
 - Declared page language
@@ -46,6 +47,5 @@ Efforts have been made, and are continuing, to make the user interface comply wi
 
 Further work is planned for:
 
-- Visible focus
 - Textual descriptions of background images
 - Enlargeability of text with reflow on touch devices
