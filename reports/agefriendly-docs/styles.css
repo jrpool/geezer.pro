@@ -1,0 +1,44 @@
+body {
+  margin: 0 5%;
+  background-color: #f8f8f0;
+}
+
+.by {
+  margin-top: -1em;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.by,
+.center {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.img-14 {
+  max-width: 14%;
+  min-width: 7em;
+}
+
+.img-20 {
+  max-width: 20%;
+  min-width: 10em;
+}
+
+.img-90 {
+  max-width: 90%;
+  min-width: 45em;
+}
+
+.float-left {
+  float: left;
+  margin-right: 2%;
+}
+
+.float-right {
+  float: right;
+  margin-left: 2%;
+}

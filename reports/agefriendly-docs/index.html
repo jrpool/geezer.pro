@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    >
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Age Friendly Seattle: Making its Documents Age-Friendly</title>
+  </head>
+
+  <body>
+    <nav class="nav-type">
+      <ul class="nav-list-type">
+        <li><a href="#main">Skip to page content</a></li>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#html">HTML documents</a></li>
+        <li><a href="#pdf">PDF documents</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </nav>
+    <main id="main">
+      <h1 class="center">Age Friendly Seattle: Making its Documents Age-Friendly</h1>
+      <p class="by">Jonathan Pool, Web Accessibility Researcher, geezer.pro</p>
+      <p class="img-14 float-right"><img src="agefriendly-logo.png" alt="Age Friendly Seattle logo"></p>
+      <section id="intro" class="section-type">
+        <h1>Introduction</h1>
+        <p><a href="http://www.seattle.gov/agefriendly"><strong>Age Friendly Seattle</strong></a> is an initiative launched by the city of Seattle in 2017. It conducts programs seeking to make Seattle “a community in which people can grow up and grow old with ease”.</p>
+        <p>One of the domains in which it acts is <strong>communication and information</strong>. “Age Friendly Seattle promotes accessible print and digital communications”. Age Friendly Seattle’s website sets an example by offering substantial support to users with disabilities.</p>
+        <p><strong>However</strong>, the example is not perfect. Improvements to the accessibility of the Age Friendly Seattle website would allow users with disabilities, including age-related impairments, to consume the information published there more easily and completely.</p>
+      </section>
+      <section id="html" class="section-type">
+        <h1>HTML documents</h1>
+        <p>The website of Age Friendly Seattle contains, mostly, HTML documents. They incorporate significant accessibility features. Some features, however, are misconfigured or missing. Greater accessibility can be achieved with corrections.</p>
+        <p class="img-20 float-right"><img src="skip-link.png" alt="Skip link on the Age Friendly Seattle website"></p>
+        <p>One case of misconfiguration is that of the <strong>skip links</strong> of the website’s pages. To see a skip link, go to the Age Friendly Seattle home page or any of its other pages and press the <code>tab</code> key. A link labeled “Skip to main content” appears in the upper-left corner. The purpose is to help keyboard-only users (who may not use a mouse because of blindness, low vision, tremors, paralysis, etc.) avoid tedious navigation by proceeding to the page’s unique content with a single keypress. In this case, however, activating the skip link takes you to the <em>Seattle web site’s</em> main content, <em>not</em> to the content of the page that you were on (try it!). This surprising result counteracts the purpose of a skip link. Instead of facilitating navigation, it complicates navigation, taking you completely off the page you were on and forcing you to find your way back there. This defect appears also on pages of other units of the Seattle government website, so a repair may entail inter-agency coordination.</p>
+        <p>The HTML pages on the site need other improvements for accessibility. Among the remaining issues are:</p>
+        <ul>
+          <li>an invisible navigation menu hidden along the right edge of the page</li>
+          <li>carousel-control buttons misconfigured as links</li>
+          <li>misleveled headings</li>
+        </ul>
+      </section>
+      <section id="pdf" class="section-type">
+        <h1>PDF documents</h1>
+        <p>Some of the information available from the Age Friendly Seattle website is published only as PDF documents. This fact alone creates barriers to accessibility. PDF documents can be accessible, but only with difficulty, both for the document creator and for the document consumer. That is not just the opinion of PDF critics. Adobe created the PDF standard, but Rob Haverty, Adobe’s Senior Product Manager for Document Cloud Accessibility, has argued that PDF is <em>not</em> an appropriate format where accessibility, rather than exact visual replication, is the goal.</p>
+        <p>Age Friendly Seattle’s PDF documents are <em>relatively</em> accessible, compared with many other PDF documents, but flaws will impair your experience if you have certain disabilities.</p>
+        <p>Let’s begin with the document titles. An accessible PDF document displays a human-intelligible title. But these PDF documents display titles such as <a href="http://www.seattle.gov/Documents/Departments/AgeFriendly/Flyer_AgeFriendlySeattle_8Domains.pdf">“Flyer_AgeFriendlySeattle_8Domains.pdf”</a>, instead of human-oriented titles like “The 8 Domains of Livability”.</p>
+        <p class="img-20 float-left"><img src="pdf-contrast-failure.png" alt="Excerpt from a report of a contrast checker, showing a color-contrast ratio of 1.87"></p>
+        <p>Now consider visibility. <a href="http://www.seattle.gov/Documents/Departments/AgeFriendly/Flyer_AgeFriendlySeattle_8Domains.pdf">One of the PDF documents</a> begins with a graphic image depicting 8 domains. If you are blind and using a screen-reading device, it will read out loud the image’s hidden alternative text, which fully describes the image content. But what if you have poor vision, instead? Then you may be using your eyes rather than an assistive device. If so, you won’t see that alternative text, and it may be difficult or impossible to read the domain descriptions, for two reasons:</p>
+        <ul>
+          <li>First, the contrast between the light-olive text and the medium-olive background is sub-standard. That contrast is measured at 1.87, but the WCAG 2.0 1.4.3 AA standard of accessibility requires such large text to have a contrast of at least 3.</li>
+          <li>Second, if you can’t distinguish the text, you might try to compensate by copying it out of the image and pasting it into a text editor, where you could view it as black on white. But you can’t do that. The text is not real text. It’s just pixels in the image. The WCAG 2.0 1.4.5 AA standard requires text to be real text, rather than images of text, in cases like this.</li>
+        </ul>
+        <p class="img-14 float-right"><img src="blue-text.png" alt="Light blue text on a white background"></p>
+        <p>Much of the text in <a href="http://www.seattle.gov/Documents/Departments/AgeFriendly/AgeFriendlySeattleFlyer0317.pdf">another Age Friendly Seattle PDF document</a> is light blue, on a white background, which creates a color contrast of 2.74, lower than the 4.5 contrast required by WCAG 2.0 1.4.3 AA standard for ordinary-size text.</p>
+        <p>Giving information graphically is risky for accessibility. In <a href="http://www.seattle.gov/Documents/Departments/AgeFriendly/AgeFriendlySeattleFlyer0317.pdf">one PDF document</a>, Age Friendly Seattle says that “A wave of growth is expected for King County’s population aged 60+”. That <strong>text</strong> is accessible. But the page uses <strong>graphics</strong> to provide additional information: that the 60+ population’s fraction of the total population is expected to increase from 15% in 2015 to 25% in 2040. How will you understand that additional fact if you are blind and using a screen reader? In at least one popular configuration, the screen reader will read the above-quoted sentence, then read the entire content of the box to its right (about “Soaring house costs”), and then read “15%, 2015, 25%, 2040”, omitting the right-pointing arrow. All in all, this will probably leave you mystified about what the 15% and 25% refer to. To experience this, play the recording below.</p>
+        <p class="center"><video class="img-90" src="misordering.mp4" controls alt="Recording of a screen reader reading items in an incorrect order"></p>
+        <p>Defects in PDFs like those described above <em>could</em> be remediated to some extent with editing. But would that be a good investment of effort? What is important here is the information, not the layout. In fact, it’s ideal if the layout <strong>varies</strong> with the size of the user’s display. Therefore, to make this information accessible, Age Friendly Seattle would most rationally republish it as HTML documents within its website. As long as accessibility standards are observed, such HTML pages would be age-friendly in ways that PDF documents could not hope to be.</p>
+      </section>
+      <section id="conclusion" class="section-type">
+        <h1>Conclusion</h1>
+        <p>Making information more accessible to consumers of all ages and abilities is not easy, and in fact is a never-ending process, but it is possible. Age Friendly Seattle has endorsed and begun to achieve this objective. More work remains to be done. Existing HTML pages and PDF documents will require remediation for accessibility. In the future, however, if Age Friendly Seattle can incorporate accessibility into its workflow from the start of each publication activity, accessibility will become easier, less expensive, and more consistent.</p>
+    </main>
+  </body>
+
+</html>
