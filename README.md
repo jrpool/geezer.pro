@@ -22,13 +22,13 @@ This software is subject to the [MIT License](https://opensource.org/licenses/MI
 
 ### General
 
-This application is a single-page website portraying a potential consulting business.
+This application is a single-page website portraying an accessibility consulting organization.
 
 It is created with HTML, CSS, JavaScript, and the [Bootstrap](http://getbootstrap.com) front-end component library.
 
 ### Origin
 
-This project originated as a pre-enrollment exercise prescribed by [Learners Guild](https://www.learnersguild.org) and set forth in detail by [Free Code Camp](https://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage). Earlier versions were developed on the [Codepen](http://codepen.io/jpool/pen/jBxeRj) platform. Additional development took place during the author’s enrollment at Learners Guild in 2017–2018. The most recent revisions have aimed mainly to make the site more concise, responsive, and accessible.
+This project originated as a pre-enrollment exercise prescribed by [Learners Guild](https://www.learnersguild.org) and set forth in detail by [Free Code Camp](https://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage). Earlier versions were developed on the [Codepen](http://codepen.io/jpool/pen/jBxeRj) platform. Additional development took place during the author’s enrollment at Learners Guild in 2017–2018. The most recent revisions have aimed mainly to make the site more concise, responsive, accessible, and informative.
 
 ### Accessibility
 
